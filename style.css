@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(193, 193, 193);
+    font-family: 'Raleway';
+    margin: 0%;
+}
+.main_container{
+    height: 100vh;
+    width: 100%;
+
+}
+.action1{
+    position: absolute;
+    text-align: center;
+    width: 130px;
+    margin: 48%;
+    margin-top: 48vh;
+    transition: all 0.3s linear 0s;
+}
+.action1 button{
+    background-color: transparent;
+    border: none;
+    color: black;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-size: 34px;
+    transition: all 0.2s linear 0s;
+
+}
+.action1 button:hover{
+    color: rgb(198, 198, 198);
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    font-size: 35px;
+
+}
+.action1 button:active{
+    color: rgb(27, 27, 27);
+
+}
+.action2{
+    display: none;
+}
+.active{
+    color: black;
+    border-bottom: 2px solid black;
+}
+.navbar{
+    background-color: transparent !important;  
+    font-size: 20px;
+}
+.navbar-brand{
+    font-size: 28px;    
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0 !important;
+    align-items: center;
+}
+.main_class{
+    margin-top: 100px;
+}
+.card{
+    background-color: transparent;
+    border-radius: 0px !important;
+    border: 0px;
+    margin-bottom: 50px;
+}
+.card-img, .card-img-top{
+    border-radius: 0px !important;
+
+}
+.card-body{
+    padding-left: 0px !important;
+}
+.foot{
+    background-color: rgb(158, 158, 158);
+    font-size: 14px;
+}
+@media(max-width:992px){
+    .card {
+        width: 12rem !important;    
+    }
+}
+@media(max-width:768px){
+    .card {
+        width: 10rem !important;    
+    }
+}
+@media(max-width:521px){
+    .card {
+        width: 20rem !important;    
+    }
+}
+/* /////////custom scrollbar in css///////////// */
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: rgb(104, 104, 104);
+    border-radius: 20px; 
+}
+  
+
+::-webkit-scrollbar-thumb:hover {
+    background-color:rgb(89, 89, 89); /* Change to your desired thumb color on hover */
+}
+  
+/* //////////////////////////////////////////////////// */
